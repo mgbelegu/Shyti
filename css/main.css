@@ -190,6 +190,10 @@ button:focus {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+  #div12sec1 {
+    display: relative;
+    padding: 96px 15px !important;
+  }
 }
 
 @media (max-width: 320px) {
@@ -250,6 +254,10 @@ button:focus {
   z-index: 0;
   top: 185px;
   left: 75px;
+}
+
+#div1sec1 {
+  padding-right: 64px;
 }
 
 #div12sec1 {
