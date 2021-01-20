@@ -15,7 +15,7 @@ body {
 
 .row {
   margin: 0;
-  padding: 0 64px;
+  padding: 0 96px;
 }
 
 p {
@@ -257,12 +257,12 @@ button:focus {
 }
 
 #div1sec1 {
-  padding-right: 64px;
+  padding-right: 96px;
 }
 
 #div12sec1 {
   display: relative;
-  padding: 96px 64px;
+  padding: 96px 96px;
 }
 
 #div12sec1 img {
@@ -292,13 +292,13 @@ button:focus {
   }
 
   #imgdiv {
-    padding: 64px 0;
+    padding: 96px 0;
   }
 }
 
 @media (max-width: 769px) {
   #imgdiv {
-    padding: 64px 0 0 0;
+    padding: 96px 0 0 0;
   }
 }
 
