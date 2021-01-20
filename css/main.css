@@ -133,7 +133,7 @@ button:focus {
 
 /*HEADER*/
 #header-image {
-  height: 100vh;
+  height: 915px;
   background-image: url("../img/header.jpg");
   background-size: cover;
   background-position: center;
@@ -144,7 +144,7 @@ button:focus {
 #header-image h1 {
   font-weight: bold;
   font-size: 86px;
-  padding-top: 30vh;
+  padding-top: 305px;
 }
 
 @media (max-width: 625px) {
