@@ -1,4 +1,20 @@
 /*GENERAL*/
+
+@font-face {
+  font-family: Orator;
+  src: url("../fonts/OratorStd.otf");
+}
+
+@font-face {
+  font-family: Berlin;
+  src: url("../fonts/BerlinSans.ttf");
+}
+
+@font-face {
+  font-family: ArialRounded;
+  src: url("../fonts/ArialRounded.ttf");
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,7 +22,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Orator", serif;
 }
 
 .col {
@@ -20,11 +36,11 @@ body {
 
 p {
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "ArialRounded", sans-serif;
 }
 
 ul li {
-  font-family: "Open Sans", sans-serif;
+  font-family: "ArialRounded", sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -79,7 +95,7 @@ h6 {
 .nav-link {
   background-color: transparent;
   padding: 12px !important;
-  font-family: "Playfair Display", serif;
+  font-family: "Orator", serif;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -134,7 +150,16 @@ button:focus {
 /*HEADER*/
 #header-image {
   height: 915px;
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#header-image2 {
+  height: 915px;
+  background-image: url("../img/header2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -147,11 +172,24 @@ button:focus {
   padding-top: 305px;
 }
 
+#header-image2 h1 {
+  font-weight: bold;
+  font-size: 86px;
+  padding-top: 305px;
+}
+
 @media (max-width: 625px) {
   #header-image h1 {
     font-size: 68px;
   }
   #header-image p {
+    width: 100% !important;
+  }
+
+  #header-image2 h1 {
+    font-size: 68px;
+  }
+  #header-image2 p {
     width: 100% !important;
   }
 }
@@ -161,6 +199,13 @@ button:focus {
     font-size: 54px;
   }
   #header-image {
+    padding-left: 15px !important;
+  }
+
+  #header-image2 h1 {
+    font-size: 54px;
+  }
+  #header-image2 {
     padding-left: 15px !important;
   }
   #div1sec1 {
@@ -203,6 +248,12 @@ button:focus {
   #header-image {
     padding-left: 16px !important;
   }
+  #header-image2 h1 {
+    font-size: 42px;
+  }
+  #header-image2 {
+    padding-left: 16px !important;
+  }
 }
 
 #header-image p {
@@ -210,9 +261,14 @@ button:focus {
   width: 50%;
 }
 
+#header-image2 p {
+  margin-bottom: 48px;
+  width: 50%;
+}
+
 .a-button {
   display: block;
-  font-family: "Open Sans", sans-serif;
+  font-family: "ArialRounded", sans-serif;
   padding: 16px 32px;
   background-color: white;
   color: black;
@@ -278,7 +334,43 @@ button:focus {
 
 .sherbimIcon {
   height: 50px;
-  margin-bottom: 20px;
+  margin: 20px 0;
+}
+
+#sherbim1DIV li,
+#sherbim2DIV li,
+#sherbim3DIV li,
+#sherbim4DIV li {
+  padding: 6px 0;
+}
+
+#sherbim1DIV,
+#sherbim2DIV,
+#sherbim3DIV,
+#sherbim4DIV {
+  margin: 6px;
+  cursor: pointer;
+  border: 1px solid white;
+  box-sizing: border-box;
+  transition: all 200ms ease-in-out;
+}
+
+#sherbim1DIV:hover,
+#sherbim2DIV:hover,
+#sherbim3DIV:hover,
+#sherbim4DIV:hover {
+  border: 1px solid #324a5d;
+}
+
+#sherbim1,
+#sherbim2,
+#sherbim3,
+#sherbim4 {
+  display: none;
+}
+
+.i4ewOd-pzNkMb-haAclf {
+  background-color: transparent;
 }
 
 @media (max-width: 1100px) {
@@ -330,6 +422,7 @@ button:focus {
 input.btn.btn-primary {
   color: #324a5d;
   font-size: 16px;
+  font-family: "ArialRounded";
   background-color: white !important;
   border-radius: 0px !important;
   border: 1px solid #324a5d;
@@ -344,14 +437,16 @@ input.btn.btn-primary:hover {
 
 #sectionFour {
   background-color: white;
+  box-sizing: border-box;
+  border-top: 1px solid rgb(231, 231, 231);
 }
 
 input {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: "ArialRounded";
 }
 
 textarea {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: "ArialRounded";
 }
 
 .text-danger {
