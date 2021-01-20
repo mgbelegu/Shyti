@@ -27,10 +27,12 @@ ul li {
   font-family: "Open Sans", sans-serif;
 }
 
-dl,
-ol,
-ul {
-  margin-top: 15px !important;
+@media (max-width: 991px) {
+  dl,
+  ol,
+  ul {
+    margin-top: 15px !important;
+  }
 }
 
 h1,
@@ -92,7 +94,7 @@ h6 {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  border-bottom: 2px solid #e4a86d;
+  border-bottom: 2px solid #8a643e;
 }
 
 .navbar-light .navbar-toggler {
@@ -132,7 +134,7 @@ button:focus {
 /*HEADER*/
 #header-image {
   height: 100vh;
-  background-image: url("../img/consulting.jpg");
+  background-image: url("../img/header.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -142,7 +144,7 @@ button:focus {
 #header-image h1 {
   font-weight: bold;
   font-size: 86px;
-  padding-top: 205px;
+  padding-top: 350px;
 }
 
 @media (max-width: 625px) {
@@ -216,7 +218,7 @@ button:focus {
 .a-button:hover {
   text-decoration: none;
   color: white;
-  background-color: #e4a86d;
+  background-color: #8a643e;
 }
 
 /*MAIN SECTIONS*/
@@ -239,12 +241,36 @@ button:focus {
   background-color: rgb(231, 231, 231);
 }
 
-#div1sec1 {
+#rrethneshtext {
+  display: relative;
+}
+
+#rrethneshtext img {
+  position: absolute;
+  z-index: 0;
+  top: 185px;
+  left: 75px;
+}
+
+#div12sec1 {
+  display: relative;
   padding: 96px 64px;
+}
+
+#div12sec1 img {
+  position: absolute;
+  z-index: 0;
+  top: 75px;
+  right: 75px;
 }
 
 #div2sec1 {
   padding: 96px 0;
+}
+
+.sherbimIcon {
+  height: 50px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1100px) {
@@ -390,7 +416,7 @@ footer a {
 
 footer a:hover {
   text-decoration: none;
-  color: #e4a86d;
+  color: #8a643e;
 }
 
 .socialLink {
