@@ -271,7 +271,7 @@ button:focus {
   padding: 16px 32px;
   background-color: white;
   color: #324a5d;
-  transition: all 200ms linear;
+  transition: all 200ms ease-in-out !important;
 }
 
 .a-button:hover {
