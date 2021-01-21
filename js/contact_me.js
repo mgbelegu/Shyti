@@ -33,7 +33,7 @@ $(document).ready(function () {
             )
             .append("</button>");
           $(".succession > .alert-success").append(
-            "<strong>Your message has been sent successfully. </strong>"
+            "<strong>Mesazhi juaj është dërguar me sukses. </strong>"
           );
           $(".succession > .alert-success").append("</div>");
 
@@ -49,9 +49,7 @@ $(document).ready(function () {
             )
             .append("</button>");
           $(".succession > .alert-danger").append(
-            "<strong>We are sorry " +
-              firstName +
-              ", it seems that our mail server is not responding. Please try again later!"
+            "<strong>Më vjen keq " + firstName + ", provoni përsëri më vonë!"
           );
           $(".succession > .alert-danger").append("</div>");
           //clear all fields

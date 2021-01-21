@@ -14,7 +14,7 @@ $email_address = $_POST['email'];
 $message = $_POST['message'];
 
 
-$to = 'info@ibs.al'; 
+$to = 'loren@shyti.al'; 
 $email_subject = "Website Contact Form:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nMessage:\n$message";
 $headers = "$email_address\n"; 

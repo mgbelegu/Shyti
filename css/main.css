@@ -1,11 +1,6 @@
 /*GENERAL*/
 
 @font-face {
-  font-family: Orator;
-  src: url("../fonts/OratorStd.otf");
-}
-
-@font-face {
   font-family: Berlin;
   src: url("../fonts/BerlinSans.ttf");
 }
@@ -22,7 +17,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Orator", serif;
+  font-family: "Playfair Display", serif;
 }
 
 .col {
@@ -95,7 +90,7 @@ h6 {
 .nav-link {
   background-color: transparent;
   padding: 12px !important;
-  font-family: "Orator", serif;
+  font-family: "Playfair Display", serif;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -451,6 +446,14 @@ textarea {
 
 .text-danger {
   margin-top: 1rem;
+}
+
+.alert {
+  font-family: "ArialRounded";
+}
+
+strong {
+  font-style: "ArialRounded" !important;
 }
 
 input[type="text"] {

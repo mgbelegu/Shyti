@@ -999,7 +999,7 @@
         name: "Required",
         type: "required",
         message:
-          "Plotëso formën siper!<!-- data-validator-required-message to override -->",
+          "Plotëso të dhënat e mësipërme!<!-- data-validator-required-message to override -->",
       },
       checkone: {
         name: "Checkone",
