@@ -32,10 +32,12 @@ body {
 p {
   font-size: 16px;
   font-family: "ArialRounded", sans-serif;
+  color: #324a5d;
 }
 
 ul li {
   font-family: "ArialRounded", sans-serif;
+  color: #324a5d;
 }
 
 @media (max-width: 991px) {
@@ -53,6 +55,7 @@ h4,
 h5,
 h6 {
   font-weight: bold;
+  color: #324a5d;
 }
 
 /*NAVBAR*/
@@ -153,12 +156,18 @@ button:focus {
 }
 
 #header-image2 {
-  height: 100%;
+  height: 915px;
   background-image: url("../img/header2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
+}
+
+@media (max-width: 991px) {
+  #header-image2 {
+    height: 100%;
+  }
 }
 
 #header-image h1 {
@@ -261,7 +270,7 @@ button:focus {
   font-family: "ArialRounded", sans-serif;
   padding: 16px 32px;
   background-color: white;
-  color: black;
+  color: #324a5d;
   transition: all 200ms linear;
 }
 
@@ -502,7 +511,7 @@ textarea:focus {
 /*FOOTER*/
 footer {
   background-color: #324a5d;
-  color: white;
+  color: white !important;
 }
 
 footer ul {
@@ -518,6 +527,19 @@ footer a {
 footer a:hover {
   text-decoration: none;
   color: #8a643e;
+}
+
+footer p {
+  color: white !important;
+}
+
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6 {
+  color: white !important;
 }
 
 .socialLink {
