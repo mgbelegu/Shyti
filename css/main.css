@@ -528,6 +528,7 @@ footer a:hover {
 #copyright-paragraph {
   font-family: ArialRounded;
   font-size: 12px;
+  margin-bottom: 4px !important;
 }
 
 @media (max-width: 768px) {
