@@ -145,7 +145,7 @@ button:focus {
 /*HEADER*/
 #header-image {
   height: 915px;
-  background-image: url("../img/header1.jpg");
+  background-image: url("../img/header1a.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -252,11 +252,6 @@ button:focus {
 }
 
 #header-image p {
-  margin-bottom: 48px;
-  width: 50%;
-}
-
-#header-image2 p {
   margin-bottom: 48px;
   width: 50%;
 }
@@ -405,7 +400,7 @@ button:focus {
 }
 
 #publikimeSection {
-  background-color: rgb(231, 231, 231);
+  background-color: transparent;
   padding: 96px 0;
 }
 
