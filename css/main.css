@@ -185,7 +185,6 @@ button:focus {
   font-weight: bold;
   font-size: 58px;
   padding-top: 305px;
-  transition: all 200ms linear;
 }
 
 @media (max-width: 625px) {
