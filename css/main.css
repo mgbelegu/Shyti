@@ -177,27 +177,27 @@ button:focus {
 
 #header-image h1 {
   font-weight: bold;
-  font-size: 86px;
+  font-size: 58px;
   padding-top: 305px;
 }
 
 #header-image2 h1 {
   font-weight: bold;
-  font-size: 86px;
+  font-size: 58px;
   padding-top: 305px;
   transition: all 200ms linear;
 }
 
 @media (max-width: 625px) {
   #header-image h1 {
-    font-size: 68px;
+    font-size: 54px;
   }
   #header-image p {
     width: 100% !important;
   }
 
   #header-image2 h1 {
-    font-size: 68px;
+    font-size: 54px;
   }
 
   #publikimeSection {
