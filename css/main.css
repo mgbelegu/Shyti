@@ -341,6 +341,7 @@ button:focus {
 #sherbim3DIV,
 #sherbim4DIV {
   margin: 6px;
+  padding-right: 6px !important;
   cursor: pointer;
   border: 1px solid white;
   box-sizing: border-box;
