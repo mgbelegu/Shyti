@@ -59,6 +59,14 @@ h6 {
 }
 
 /*NAVBAR*/
+.flagicon {
+  height: 16px;
+}
+
+.dropdown-menu {
+  background-color: #324a5d;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -133,6 +141,10 @@ button:focus {
   .nav-link {
     background-color: #324a5d !important;
     padding: 12px !important;
+  }
+
+  .dropdown-menu {
+    border: 0px !important;
   }
 }
 

@@ -25,8 +25,8 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="icon" type="image/png" href="../img/favicon.png" />
     <script
       src="https://kit.fontawesome.com/abb4885a60.js"
       crossorigin="anonymous"
@@ -44,14 +44,14 @@
       >
         <a class="navbar-brand" href="index.html"
           ><img
-            src="img/logo.svg"
+            src="../img/logo.svg"
             alt="Navbar logo"
             style="height: 65px; padding-right: 10px"
           />Shyti Consulting</a
         >
         <a class="navbar-brand-mobile" href="index.html"
           ><img
-            src="img/logo.svg"
+            src="../img/logo.svg"
             alt="Navbar logo"
             style="height: 65px; padding-right: 10px"
           />Shyti Consulting</a
@@ -81,7 +81,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#kontakt">Kontakt</a>
             </li>
-            <!--
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -91,18 +91,22 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Contact
+                <i class="fas fa-globe"></i>
               </a>
               <div
+                style="min-width: inherit; left: -15%"
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="#">Item1</a>
-                <a class="dropdown-item" href="#">Item2</a>
-                <a class="dropdown-item" href="#">Item3</a>
+                <a class="dropdown-item" href="index.html"
+                  ><img class="flagicon" src="../img/al.png" alt="al-flag"
+                /></a>
+                <a class="dropdown-item" href="../en/"
+                  ><img class="flagicon" src="../img/usa.png" alt="us-flag"
+                /></a>
               </div>
             </li>
-          --></ul>
+          </ul>
         </div>
       </nav>
     </header>
@@ -151,7 +155,7 @@
             data-aos-easing="ease-in-out"
             class="img-fluid"
             style="max-height: 700px; border: 10px solid #8a643e"
-            src="img/rrethnesh6.jpg"
+            src="../img/rrethnesh6.jpg"
             alt="IMAGE"
             srcset=""
           />
@@ -165,7 +169,7 @@
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              src="img/question1a.png"
+              src="../img/question1a.png"
             />
             <h1
               data-aos="fade-up"
@@ -215,13 +219,13 @@
             data-aos-easing="ease-in-out"
             class="img-fluid"
             style="max-height: 400px; border: 10px solid #8a643e"
-            src="img/rrethnesh6.jpg"
+            src="../img/rrethnesh6.jpg"
             alt="IMAGE"
             srcset=""
           />
         </div>
         <div id="div12sec1" class="col-md-7">
-          <img src="img/question1a.png" />
+          <img src="../img/question1a.png" />
           <h1
             data-aos="fade-up"
             data-aos-duration="700"
@@ -273,7 +277,7 @@
             data-aos-anchor="#sherbimeRow"
             class="col-lg text-center pb-5"
           >
-            <img class="sherbimIcon" src="img/aud.png" />
+            <img class="sherbimIcon" src="../img/aud.png" />
             <h3>Shërbimet e Auditimit dhe dhënies të sigurisë</h3>
             <ul class="text-left" id="sherbim1">
               <li>
@@ -310,7 +314,7 @@
             data-aos-anchor="#sherbimeRow"
             class="col-lg text-center pb-5"
           >
-            <img class="sherbimIcon" src="img/acc.png" />
+            <img class="sherbimIcon" src="../img/acc.png" />
             <h3>Shërbime të Kontabilitetit dhe Deklarimi</h3>
             <ul class="text-left" id="sherbim2">
               <li>
@@ -338,7 +342,7 @@
             data-aos-anchor="#sherbimeRow"
             class="col-lg text-center pb-5"
           >
-            <img class="sherbimIcon" src="img/cons.png" />
+            <img class="sherbimIcon" src="../img/cons.png" />
             <h3 id="sherbimeKonsulence">Shërbime Konsulence</h3>
             <ul class="text-left" id="sherbim3">
               <li>Konsulencë Financiare</li>
@@ -364,7 +368,7 @@
             data-aos-anchor="#sherbimeRow"
             class="col-lg text-center pb-5"
           >
-            <img class="sherbimIcon" src="img/coin.png" />
+            <img class="sherbimIcon" src="../img/coin.png" />
             <h3 id="sherbimeKonsulence">Shërbime Vlerësimi</h3>
             <ul class="text-left" id="sherbim4">
               <li>Vlerësim përllogaritje listpagesa</li>
@@ -535,9 +539,12 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-    <script type="text/javascript" src="js/contact_me.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script
+      type="text/javascript"
+      src="../js/jqBootstrapValidation.js"
+    ></script>
+    <script type="text/javascript" src="../js/contact_me.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init({ once: true });

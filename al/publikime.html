@@ -15,8 +15,8 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="icon" type="image/png" href="../img/favicon.png" />
     <script
       src="https://kit.fontawesome.com/abb4885a60.js"
       crossorigin="anonymous"
@@ -34,14 +34,14 @@
       >
         <a class="navbar-brand" href="index.html"
           ><img
-            src="img/logo.svg"
+            src="../img/logo.svg"
             alt="Navbar logo"
             style="height: 65px; padding-right: 10px"
           />Shyti Consulting</a
         >
         <a class="navbar-brand-mobile" href="index.html"
           ><img
-            src="img/logo.svg"
+            src="../img/logo.svg"
             alt="Navbar logo"
             style="height: 65px; padding-right: 10px"
           />Shyti Consulting</a
@@ -60,18 +60,18 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav" style="margin-top: 0px">
             <li class="nav-item">
-              <a class="nav-link" href="index.html#rrethnesh">Rreth Nesh</a>
+              <a class="nav-link" href="#rrethnesh">Rreth Nesh</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#sherbime">Shërbime</a>
+              <a class="nav-link" href="#sherbime">Shërbime</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="publikime.html">Publikime</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#kontakt">Kontakt</a>
+              <a class="nav-link" href="#kontakt">Kontakt</a>
             </li>
-            <!--
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -81,18 +81,22 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Contact
+                <i class="fas fa-globe"></i>
               </a>
               <div
+                style="min-width: inherit; left: -15%"
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="#">Item1</a>
-                <a class="dropdown-item" href="#">Item2</a>
-                <a class="dropdown-item" href="#">Item3</a>
+                <a class="dropdown-item" href="index.html"
+                  ><img class="flagicon" src="../img/al.png" alt="al-flag"
+                /></a>
+                <a class="dropdown-item" href="../en/"
+                  ><img class="flagicon" src="../img/usa.png" alt="us-flag"
+                /></a>
               </div>
             </li>
-          --></ul>
+          </ul>
         </div>
       </nav>
     </header>
@@ -234,9 +238,12 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-    <script type="text/javascript" src="js/contact_me.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script
+      type="text/javascript"
+      src="../js/jqBootstrapValidation.js"
+    ></script>
+    <script type="text/javascript" src="../js/contact_me.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init({ once: true });

@@ -8,8 +8,11 @@ $(function () {
     $nav.toggleClass("scrolled", $(this).scrollTop() > 200);
     $navlinks.toggleClass("scrolled", $(this).scrollTop() > 200);
   });
+
   $(".navbar-nav>li>a").on("click", function () {
-    $(".navbar-collapse").collapse("hide");
+    if ($(this).hasClass("dropdown-toggle") === false) {
+      $(".navbar-collapse").collapse("hide");
+    }
   });
 
   $("#sherbim1DIV").hover(function () {
